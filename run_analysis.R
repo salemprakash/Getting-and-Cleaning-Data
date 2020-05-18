@@ -6,7 +6,7 @@
 #Download data
 library(data.table)
 fileurl = 'https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip'
-setwd('/Users/zhusiqi/Desktop/coursera/R_jhu/geting_and_cleaning_data/course_project')
+setwd("C:/Users/pvm/Desktop/Prakash/R Prog")
 if (!file.exists('./UCI HAR Dataset.zip')){
         download.file(fileurl,'./UCI HAR Dataset.zip', mode = 'wb')
         unzip("UCI HAR Dataset.zip", exdir = './')
